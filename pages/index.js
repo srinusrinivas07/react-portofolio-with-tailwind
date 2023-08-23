@@ -45,7 +45,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1Tpc8FCqUB-XeAOd7sQvCT91eR-qgTIVV/view?usp=drive_link" target="_blank"
+                  href="https://drive.google.com/file/d/1Tpc8FCqUB-XeAOd7sQvCT91eR-qgTIVV/view?usp=drive_link" rel="rve" target="_blank"
                 >
                   Resume
                 </a>
@@ -63,18 +63,18 @@ export default function Home() {
               
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/srinusrinivas07" target="_blank"> 
+              <a href="https://github.com/srinusrinivas07" rel="rve" target="_blank"> 
               <AiOutlineGithub />
               </a>
-              <a href="https://www.linkedin.com/in/srinivas-uttarkar/" target="_blank">
+              <a href="https://www.linkedin.com/in/srinivas-uttarkar/" rel="rve" target="_blank">
               <AiFillLinkedin />
               </a>
-              <a href="https://www.codechef.com/users/srinu1345" target="_blank">
+              <a href="https://www.codechef.com/users/srinu1345" rel="rve" target="_blank">
               <AiFillCode />
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt="react" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -101,15 +101,15 @@ export default function Home() {
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1" style={{background: "linear-gradient(to right,#facf6e, #C5FAD5)"}}>
-              <Image src={python} width={100} height={100} sizes="10" />
+              <Image alt="react" src={python} width={100} height={100} sizes="10" />
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"style={{background: "linear-gradient(to left, #facf6e, #C5FAD5)"}}>
-              <Image src={flutter} width={100} height={100} sizes="10"/>
+              <Image alt="react" src={flutter} width={100} height={100} sizes="10"/>
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"style={{background: "linear-gradient(to right, #facf6e, #C5FAD5)"}}>
-              <Image src={sql} width={100} height={90} />
+              <Image alt="react" src={sql} width={100} height={90} />
               
             </div>
           </div>
@@ -126,19 +126,19 @@ export default function Home() {
               
                 <a
                   className="bg-gradient-to-r hover:bg-sky-700 from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
-                  href="https://github.com/srinusrinivas07/instagram_mod_app" target="_blank"
+                  href="https://github.com/srinusrinivas07/instagram_mod_app" rel="rve" target="_blank"
                 >
                   GitHub
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/file/d/1kSh1IDlrPdH6uplemYumn2oMgGx40QLf/view?usp=drive_link" target="_blank"
+                  href="https://drive.google.com/file/d/1kSh1IDlrPdH6uplemYumn2oMgGx40QLf/view?usp=drive_link" rel="rve" target="_blank"
                 >
                   APK
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/drive/folders/1t9UuBbwG1n5ls2r_md568dCWGZfimH8n?usp=drive_link" target="_blank"
+                  href="https://drive.google.com/drive/folders/1t9UuBbwG1n5ls2r_md568dCWGZfimH8n?usp=drive_link" rel="rve" target="_blank"
                 >
                   Sample images
                   </a>
@@ -147,19 +147,19 @@ export default function Home() {
             <h1 className="font-burtons text-xl text-3xl py-1 mb-8 ">FOOD DELIVERY APPLICATION</h1>
               <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
-                  href="https://github.com/srinusrinivas07/food" target="_blank"
+                  href="https://github.com/srinusrinivas07/food" rel="rve" target="_blank"
                 >
                   GitHub
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/file/d/1aH-tpvzpdJ_Eyaz8KloududDXD7mg8ut/view?usp=drive_link" target="_blank"
+                  href="https://drive.google.com/file/d/1aH-tpvzpdJ_Eyaz8KloududDXD7mg8ut/view?usp=drive_link" rel="rve" target="_blank"
                 >
                   APK
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/drive/folders/1dUfqIovOl4ud5QFBrn_K1KzmdTyhMhQo?usp=sharing" target="_blank"
+                  href="https://drive.google.com/drive/folders/1dUfqIovOl4ud5QFBrn_K1KzmdTyhMhQo?usp=sharing" rel="rve" target="_blank"
                 >
                   Sample images
                 </a>
