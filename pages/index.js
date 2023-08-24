@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Contact from "./contact";
 
 import {
   AiOutlineGithub,
@@ -17,9 +16,7 @@ import flutter from "../public/flutter-svgrepo-com.svg";
 import sql from "../public/sql-database-sql-azure-svgrepo-com.svg";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -45,7 +42,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1Tpc8FCqUB-XeAOd7sQvCT91eR-qgTIVV/view?usp=drive_link" rel="rve" target="_blank"
+                  href="https://drive.google.com/file/d/1Tpc8FCqUB-XeAOd7sQvCT91eR-qgTIVV/view?usp=drive_link"
                 >
                   Resume
                 </a>
@@ -63,13 +60,13 @@ export default function Home() {
               
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <a href="https://github.com/srinusrinivas07" rel="rve" target="_blank"> 
+              <a href="https://github.com/srinusrinivas07"> 
               <AiOutlineGithub />
               </a>
-              <a href="https://www.linkedin.com/in/srinivas-uttarkar/" rel="rve" target="_blank">
+              <a href="https://www.linkedin.com/in/srinivas-uttarkar/">
               <AiFillLinkedin />
               </a>
-              <a href="https://www.codechef.com/users/srinu1345" rel="rve" target="_blank">
+              <a href="https://www.codechef.com/users/srinu1345">
               <AiFillCode />
               </a>
             </div>
@@ -126,19 +123,19 @@ export default function Home() {
               
                 <a
                   className="bg-gradient-to-r hover:bg-sky-700 from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
-                  href="https://github.com/srinusrinivas07/instagram_mod_app" rel="rve" target="_blank"
+                  href="https://github.com/srinusrinivas07/instagram_mod_app"
                 >
                   GitHub
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/file/d/1kSh1IDlrPdH6uplemYumn2oMgGx40QLf/view?usp=drive_link" rel="rve" target="_blank"
+                  href="https://drive.google.com/file/d/1kSh1IDlrPdH6uplemYumn2oMgGx40QLf/view?usp=drive_link"
                 >
                   APK
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/drive/folders/1t9UuBbwG1n5ls2r_md568dCWGZfimH8n?usp=drive_link" rel="rve" target="_blank"
+                  href="https://drive.google.com/drive/folders/1t9UuBbwG1n5ls2r_md568dCWGZfimH8n?usp=drive_link"
                 >
                   Sample images
                   </a>
@@ -147,19 +144,19 @@ export default function Home() {
             <h1 className="font-burtons text-xl text-3xl py-1 mb-8 ">FOOD DELIVERY APPLICATION</h1>
               <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md"
-                  href="https://github.com/srinusrinivas07/food" rel="rve" target="_blank"
+                  href="https://github.com/srinusrinivas07/food"
                 >
                   GitHub
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/file/d/1aH-tpvzpdJ_Eyaz8KloududDXD7mg8ut/view?usp=drive_link" rel="rve" target="_blank"
+                  href="https://drive.google.com/file/d/1aH-tpvzpdJ_Eyaz8KloududDXD7mg8ut/view?usp=drive_link"
                 >
                   APK
                 </a>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-5"
-                  href="https://drive.google.com/drive/folders/1dUfqIovOl4ud5QFBrn_K1KzmdTyhMhQo?usp=sharing" rel="rve" target="_blank"
+                  href="https://drive.google.com/drive/folders/1dUfqIovOl4ud5QFBrn_K1KzmdTyhMhQo?usp=sharing"
                 >
                   Sample images
                 </a>
@@ -167,65 +164,7 @@ export default function Home() {
             
           </div>
         </section>
-        
-          {/* <div className="flex flex-col gap-10 py-10 lg:flex-row ">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg "
-                width={"100%"}
-                height={"200%"}
-                layout="responsive"
-                src={web1}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
-            </div>
-          </div> */}
         </section>
-        <Contact/>
       </main>
     </div>
     
