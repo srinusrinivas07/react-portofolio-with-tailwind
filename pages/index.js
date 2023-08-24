@@ -16,6 +16,7 @@ import flutter from "../public/flutter-svgrepo-com.svg";
 import sql from "../public/sql-database-sql-azure-svgrepo-com.svg";
 
 
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -69,7 +70,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image alt="react" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -96,15 +97,15 @@ export default function Home() {
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1" style={{background: "linear-gradient(to right,#facf6e, #C5FAD5)"}}>
-              <Image src={python} width={100} height={100} sizes="10" />
+              <Image alt="react" src={python} width={100} height={100} sizes="10" />
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"style={{background: "linear-gradient(to left, #facf6e, #C5FAD5)"}}>
-              <Image src={flutter} width={100} height={100} sizes="10"/>
+              <Image alt="react" src={flutter} width={100} height={100} sizes="10"/>
               
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1"style={{background: "linear-gradient(to right, #facf6e, #C5FAD5)"}}>
-              <Image src={sql} width={100} height={90} />
+              <Image alt="react" src={sql} width={100} height={90} />
               
             </div>
           </div>
@@ -162,8 +163,7 @@ export default function Home() {
             
           </div>
         </section>
-        
-          
+
         </section>
       </main>
     </div>
